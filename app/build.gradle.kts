@@ -66,8 +66,15 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+    // Carga de imagenes asincrona
     implementation("io.coil-kt:coil-compose:2.6.0")
+    // arquitectura MVVM
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0")
+    // Hacer llamdas al api
     implementation("com.squareup.retrofit2:retrofit:2.10.0")
+    // transofrmar Json a objeto kotlin
     implementation("com.squareup.retrofit2:converter-gson:2.10.0")
+
+    // Navegacion
+    implementation("androidx.navigation:navigation-compose:2.7.7")
 }
